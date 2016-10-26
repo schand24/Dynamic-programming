@@ -20,7 +20,7 @@ class DP_MinOperationsStr1toStr2{
 		int[][] l = new int[m+1][n+1];
 
 		for (int i = 0;i <= m ; i++ ) {
-			for (int j = 0;j <= n;j++ ) {
+			for (int j = 0; j <= n; j++ ) {
 				if (i == 0)
 					l[i][j] = j;
 				else if (j == 0)
